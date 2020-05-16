@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cdc0f21864.js" crossorigin="anonymous"></script>
+    <title>Dental Clinic</title>
+</head>
+
+<body>
+    <header>
+        <p id="top-color-point"></p>
+        <!--トップロゴ-->
+        <div class="container">
+            <a class="logo" href="index.html">Dental Clinic</a>
+            <div class="top-right">
+                <p id="top-right1">"地域に根付いた歯科医院"デンタルクリニック</p>
+                <p id="top-right2"><i class="fas fa-phone-volume "></i>00-0000-0000</p>
+                <p id="top-right3">予約受付時間　10:00〜19:30 <span style="color: red;">日祝　休診</span></p>
+            </div>
+            <p class="clearfix"></p>
+            <!--トップナビ-->
+            <div class="row">
+                <div class="col-md top-nav">
+                    <a href="index.html" class="top-main"><span class="top-sub1">トップページ</span><span class="top-sub">Home</span></a>
+                </div>
+                <div class="col-md top-nav">
+                    <a href="clinic.html" class="top-main"><span class="top-sub1">医院紹介</span><p class="top-sub">CLINIC</p></a>
+                </div>
+                <div class="col-md top-nav">
+                    <a href="service.html" class="top-main"><span class="top-sub1">診療案内</span><p class="top-sub">SERVICE</p></a>
+                </div>
+                <div class="col-md top-nav">
+                    <a href="staff.html" class="top-main"><span class="top-sub1">院長・スタッフ紹介</span><p class="top-sub">STAFF</p></a>
+                </div>
+                <div class="col-md top-nav">
+                    <a href="access.html" class="top-main"><span class="top-sub1">アクセス</span><p class="top-sub">ACCESS</p></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row" style="margin-top: 30px;">
+                <!--サイドバー-->
+                <div class="col-md-3 side-bar">
+                    <div class="side-menu">
+                        <h2>一般歯科</h2>
+                        <a href="#tooth-decay">虫歯治療</a>
+                        <a href="#periodontal-disease">歯周病治療</a>
+                        <a href="#denture">入れ歯</a>
+                        <a href="#preventive-dentistry">予防歯科</a>
+                    </div>
+
+                    <div class="side-menu">
+                        <h2>美容歯科</h2>
+                        <a href="#whiting">ホワイトニング</a>
+                        <a href="#all-seramic">オールセラミック</a>
+                        <a href="#seramic-inrea">セラミックインレー</a>
+                        <a href="#pmtc">PMTC</a>
+                    </div>
+                </div>
+                <!--メイン-->
+                <div class="col-md-9 main-kalam">
+                    <div class="clinic-propaty">
+                        <h2 class="clinic-main-h">院長・スタッフ紹介</h2>
+                        <div class="clinic-anouns">
+                            <h3>院長紹介</h3>
+                            <div style="margin:0 auto; width: 100%;">
+                                <img src="doctor.jpg" alt="doctor picture" class="doctor" style="display:block; margin: 0 auto;">
+                                <p class="introduce">山田　太郎院長</p>
+                            </div>
+                            <p style="color: #66b4a1;">院長経歴</p>
+                            <ul style="list-style: none;">
+                                <li><i class="fas fa-shoe-prints fa-rotate-90"></i>1990年 神奈川県立医科歯科大学 卒業</li>
+                                <li><i class="fas fa-shoe-prints fa-rotate-90"></i>1991年 きたデンタルオフィス 勤務</li>
+                                <li><i class="fas fa-shoe-prints fa-rotate-90"></i>1993年 西野歯科医院 勤務</li>
+                                <li><i class="fas fa-shoe-prints fa-rotate-90"></i>1999年 東山歯科医院 勤務</li>
+                                <li><i class="fas fa-shoe-prints fa-rotate-90"></i>2002年 Dental Clinic 勤務</li>
+                                <li><i class="fas fa-shoe-prints fa-rotate-90"></i>2008年 Dental Clinic 院長に就任</li>
+                            </ul>
+
+                            <h3>STAFF紹介</h3>
+                            <div class="row">
+                                <div class="col-md-3 staff-profile">
+                                    <img src="staff3.jpg" alt="staff picture">
+                                    <p class="introduce">医師：山本</p>
+                                </div>
+                                <div class="col-md-3 staff-profile">
+                                    <img src="staff1.jpg" alt="staff picture">
+                                    <p class="introduce">衛生士：細川</p>
+                                </div>
+                                <div class="col-md-3 staff-profile">
+                                    <img src="staff2.jpg" alt="staff picture">
+                                    <p class="introduce">衛生士：小山</p>
+                                </div>
+                                <div class="col-md-3 staff-profile">
+                                    <img src="staff4.jpg" alt="staff picture">
+                                    <p class="introduce">衛生士：村上</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p class="foot-nav">
+                <a href="index.html"><i class="fas fa-tooth"></i>トップページ<i class="fas fa-tooth"></i></a>
+                <a href="clinic.html"><i class="fas fa-tooth"></i>医院紹介<i class="fas fa-tooth"></i></a>
+                <a href="service.html"><i class="fas fa-tooth"></i>診療案内<i class="fas fa-tooth"></i></a>
+                <a href="staff.html"><i class="fas fa-tooth"></i>院長・スタッフ紹介<i class="fas fa-tooth"></i></a>
+                <a href="access.html"><i class="fas fa-tooth"></i>アクセス<i class="fas fa-tooth"></i></a>
+            </p>
+            <div class="foot-logo">
+                <p class="foot-name">Dental Clinic</p>
+                <p class="foot-adress">東京都〇〇区〇〇1-3-44</p>
+            </div>
+        </div>
+
+        <p class="clearfix"></p>
+    </footer>
+    <br style="font-weight: bold;">
+    <p style="text-align: center;">&copy;KKK 2020</p>
+</body>
+
+</html>
