@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cdc0f21864.js" crossorigin="anonymous"></script>
+    <title>Dental Clinic</title>
+</head>
+
+<body>
+    <header>
+        <p id="top-color-point"></p>
+        <!--トップロゴ-->
+        <div class="container">
+            <a class="logo" href="index.html">Dental Clinic</a>
+            <div class="top-right">
+                <p id="top-right1">"地域に根付いた歯科医院"デンタルクリニック</p>
+                <p id="top-right2"><i class="fas fa-phone-volume "></i>00-0000-0000</p>
+                <p id="top-right3">予約受付時間　10:00〜19:30 <span style="color: red;">日祝　休診</span></p>
+            </div>
+            <p class="clearfix"></p>
+            <!--トップナビ-->
+            <div class="row">
+                <div class="col-md top-nav">
+                    <a href="index.html" class="top-main"><span class="top-sub1">トップページ</span><span class="top-sub">Home</span></a>
+                </div>
+                <div class="col-md top-nav">
+                    <a href="clinic.html" class="top-main"><span class="top-sub1">医院紹介</span><p class="top-sub">CLINIC</p></a>
+                </div>
+                <div class="col-md top-nav">
+                    <a href="service.html" class="top-main"><span class="top-sub1">診療案内</span><p class="top-sub">SERVICE</p></a>
+                </div>
+                <div class="col-md top-nav">
+                    <a href="staff.html" class="top-main"><span class="top-sub1">院長・スタッフ紹介</span><p class="top-sub">STAFF</p></a>
+                </div>
+                <div class="col-md top-nav">
+                    <a href="access.html" class="top-main"><span class="top-sub1">アクセス</span><p class="top-sub">ACCESS</p></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row" style="margin-top: 30px;">
+                <!--サイドバー-->
+                <div class="col-md-3 side-bar">
+                    <div class="side-menu">
+                        <h2>一般歯科</h2>
+                        <a href="#tooth-decay">虫歯治療</a>
+                        <a href="#periodontal-disease">歯周病治療</a>
+                        <a href="#denture">入れ歯</a>
+                        <a href="#preventive-dentistry">予防歯科</a>
+                    </div>
+
+                    <div class="side-menu">
+                        <h2>美容歯科</h2>
+                        <a href="#whiting">ホワイトニング</a>
+                        <a href="#all-seramic">オールセラミック</a>
+                        <a href="#seramic-inrea">セラミックインレー</a>
+                        <a href="#pmtc">PMTC</a>
+                    </div>
+                </div>
+                <!--メイン-->
+                <div class="col-md-9 main-kalam">
+                    <div class="top-picture">
+                        <img src="topimage.jpg" alt="top picture">
+                    </div>
+                    <!--新着情報-->
+                    <div class="news">
+                        <h2>新着情報</h2>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="date">2020年4月5日</td>
+                                    <td>【診療時間変更のお知らせ】緊急事態宣言を受けまして診療時間を短縮致します。予約受付時間を18時までとさせて頂きます。</td>
+                                </tr>
+                                <tr>
+                                    <td class="date">2020年1月3日</td>
+                                    <td>【診療開始日について】あけましておめでとうございます。本年は1月10日より通常診療を開始致します。今年もよろしくお願い申し上げます。</td>
+                                </tr>
+                                <tr>
+                                    <td class="date">2019年12月23日</td>
+                                    <td>【年内診療について】年内の診療は12月30日まで行なっております。年始の診療については後日ご連絡させて頂きます。</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p class="foot-nav">
+                <a href="index.html"><i class="fas fa-tooth"></i>トップページ<i class="fas fa-tooth"></i></a>
+                <a href="clinic.html"><i class="fas fa-tooth"></i>医院紹介<i class="fas fa-tooth"></i></a>
+                <a href="service.html"><i class="fas fa-tooth"></i>診療案内<i class="fas fa-tooth"></i></a>
+                <a href="staff.html"><i class="fas fa-tooth"></i>院長・スタッフ紹介<i class="fas fa-tooth"></i></a>
+                <a href="access.html"><i class="fas fa-tooth"></i>アクセス<i class="fas fa-tooth"></i></a>
+            </p>
+            <div class="foot-logo">
+                <p class="foot-name">Dental Clinic</p>
+                <p class="foot-adress">東京都〇〇区〇〇1-3-44</p>
+            </div>
+        </div>
+
+        <p class="clearfix"></p>
+    </footer>
+    <br style="font-weight: bold;">
+    <p style="text-align: center;">&copy;KKK 2020</p>
+</body>
+
+</html>
