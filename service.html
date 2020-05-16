@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cdc0f21864.js" crossorigin="anonymous"></script>
+    <title>Dental Clinic</title>
+</head>
+
+<body>
+    <header>
+        <p id="top-color-point"></p>
+        <!--トップロゴ-->
+        <div class="container">
+            <a class="logo" href="index.html">Dental Clinic</a>
+            <div class="top-right">
+                <p id="top-right1">"地域に根付いた歯科医院"デンタルクリニック</p>
+                <p id="top-right2"><i class="fas fa-phone-volume "></i>00-0000-0000</p>
+                <p id="top-right3">予約受付時間　10:00〜19:30 <span style="color: red;">日祝　休診</span></p>
+            </div>
+            <p class="clearfix"></p>
+            <!--トップナビ-->
+            <div class="row">
+                <div class="col-md top-nav">
+                    <a href="index.html" class="top-main"><span class="top-sub1">トップページ</span><span class="top-sub">Home</span></a>
+                </div>
+                <div class="col-md top-nav">
+                    <a href="clinic.html" class="top-main"><span class="top-sub1">医院紹介</span><p class="top-sub">CLINIC</p></a>
+                </div>
+                <div class="col-md top-nav">
+                    <a href="service.html" class="top-main"><span class="top-sub1">診療案内</span><p class="top-sub">SERVICE</p></a>
+                </div>
+                <div class="col-md top-nav">
+                    <a href="staff.html" class="top-main"><span class="top-sub1">院長・スタッフ紹介</span><p class="top-sub">STAFF</p></a>
+                </div>
+                <div class="col-md top-nav">
+                    <a href="access.html" class="top-main"><span class="top-sub1">アクセス</span><p class="top-sub">ACCESS</p></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row" style="margin-top: 30px;">
+                <!--サイドバー-->
+                <div class="col-md-3 side-bar">
+                    <div class="side-menu">
+                        <h2>一般歯科</h2>
+                        <a href="#tooth-decay">虫歯治療</a>
+                        <a href="#periodontal-disease">歯周病治療</a>
+                        <a href="#denture">入れ歯</a>
+                        <a href="#preventive-dentistry">予防歯科</a>
+                    </div>
+
+                    <div class="side-menu">
+                        <h2>美容歯科</h2>
+                        <a href="#whiting">ホワイトニング</a>
+                        <a href="#all-seramic">オールセラミック</a>
+                        <a href="#seramic-inrea">セラミックインレー</a>
+                        <a href="#pmtc">PMTC</a>
+                    </div>
+                </div>
+                <!--メイン-->
+                <div class="col-md-9 main-kalam">
+                    <div class="clinic-propaty">
+                        <h2 class="clinic-main-h">診療案内</h2>
+                        <div class="clinic-anouns">
+                            <h3>一般歯科</h3>
+                            <p style="color: #66b4a1;" id="tooth-decay">虫歯治療</p>
+                            <p>「削らない・抜かない」治療を基本としています。</p>
+                            <p>虫歯の進行の度合いを見極め、歯を残すこと・虫歯の予防を第一に治療します。</p>
+                            <p style="color: #66b4a1;" id="periodontal-disease">歯周病治療</p>
+                            <p>歯周病の治療は進行具合によって、歯石を除去する治療と、悪くなった歯茎・溶けた骨を改善する治療に分けられます。</p>
+                            <p>治療が完了しても家庭でのケア（歯磨き等）と、歯科医院での継続的な治療、その両方が必要です。治療内容によって保険治療が適応できる部分と、自由診療になる部分があります。</p>
+                            <p style="color: #66b4a1;" id="denture">入れ歯</p>
+                            <p>自然な見た目、違和感のない付け心地の入れ歯をお作りします。総入れ歯・部分入れ歯のご相談承ります。</p>
+
+                            <p style="color: #66b4a1;" id="preventive-dentistry">予防歯科</p>
+                            <p>昔は「虫歯になったら歯医者さんにまかせておけばよい」といった考え方が主流でしたが、昨今は「予防」の時代に移行しつつあります。</p>
+                            <p>虫歯は正しい知識を身に付け、きちんとした予防を行えば防ぐことができる病気です。定期健診や普段の歯磨きのアドバイスなど、予防するという医療を推進しています。</p>
+
+                            <h3>美容歯科</h3>
+                            <p style="color: #66b4a1;" id="whiting">ホワイトニング</p>
+                            <p>週に1回20分程度専用トレーでホワイトニング剤を塗布し、歯を白くして行きます。ご家庭でできる、ホームホワイトニングの指導も行っています。</p>
+                            <p style="color: #66b4a1;" id="all-seramic">オールセラミック</p>
+                            <p>オールセラミックは、被せ物や差し歯の素材が全てセラミック材料（陶器材料）で出来ているものを使用する歯科治療です。</p>
+                            <p>金属類を使用する治療法と違って、全て光を透すセラミック材料で出来ているので、天然の歯に近い透明感ある仕上がりになります。</p>
+                            <p style="color: #66b4a1;" id="seramic-inrea">セラミックインレー</p>
+                            <p>保険診療で治療された銀歯が気になられる方や、むし歯や詰めものが取れたのを機に白い詰め物を希望される方への治療法です。</p>
+
+                            <p style="color: #66b4a1;" id="pmtc">PMTC</p>
+                            <p>PMTCとは、『Professional Mechanical Tooth Cleaning』の略で、歯科医師や歯科衛生士が特別な器具を使い、普段の歯磨きでは取りきれない歯の汚れを除去し、きれいにすることです。</p>
+                            <p>歯の表面に付着したステイン（お茶やタバコなどの着色汚れ）も落とすことができますので、歯の着色が気になる方にもオススメです。</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p class="foot-nav">
+                <a href="index.html"><i class="fas fa-tooth"></i>トップページ<i class="fas fa-tooth"></i></a>
+                <a href="clinic.html"><i class="fas fa-tooth"></i>医院紹介<i class="fas fa-tooth"></i></a>
+                <a href="service.html"><i class="fas fa-tooth"></i>診療案内<i class="fas fa-tooth"></i></a>
+                <a href="staff.html"><i class="fas fa-tooth"></i>院長・スタッフ紹介<i class="fas fa-tooth"></i></a>
+                <a href="access.html"><i class="fas fa-tooth"></i>アクセス<i class="fas fa-tooth"></i></a>
+            </p>
+            <div class="foot-logo">
+                <p class="foot-name">Dental Clinic</p>
+                <p class="foot-adress">東京都〇〇区〇〇1-3-44</p>
+            </div>
+        </div>
+
+        <p class="clearfix"></p>
+    </footer>
+    <br style="font-weight: bold;">
+    <p style="text-align: center;">&copy;KKK 2020</p>
+</body>
+
+</html>
