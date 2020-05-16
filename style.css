@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+a:visited {
+    color: inherit;
+}
+
+header {
+    background-color: #e6e6e6ce;
+}
+
+body {
+    background-color: #e6e6e6ce;
+}
+
+#top-color-point {
+    background-color: rgb(154, 221, 204);
+    height: 10px;
+}
+
+.top-right {
+    float: right;
+}
+
+.logo {
+    display: inline-block;
+    float: left;
+    text-decoration: none;
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Sacramento', cursive;
+    margin-top: 30px;
+}
+
+.logo:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo:visited {
+    color: inherit;
+}
+
+#top-right1 {
+    font-size: .8em;
+    color: rgba(63, 59, 59, 0.534);
+    margin: 0 0;
+}
+
+#top-right2 {
+    font-size: 1.8em;
+    text-align: center;
+    margin: 0 0;
+}
+
+#top-right3 {
+    font-size: .8em;
+    margin: 0 0;
+    text-align: center;
+    padding: 4px;
+    border: 1px solid rgb(112, 112, 112);
+}
+
+.top-nav {
+    border: 1px solid rgb(230, 255, 240);
+    background: linear-gradient( #9addcc, #66b4a1);
+    text-align: center;
+    border-radius: 5px;
+    padding: 0 0;
+}
+
+.top-nav:hover {
+    background: linear-gradient(#66b4a1, #9addcc);
+    opacity: 0.8;
+}
+
+.top-main {
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+}
+
+.top-main:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.top-sub {
+    color: rgb(128, 128, 128);
+    font-size: .5em;
+    display: block;
+}
+
+.top-sub1 {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.side-menu {
+    border: 1px solid #9addcc;
+    border-radius: 5px 5px 0 0;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.side-menu h2 {
+    background-color: #9addcc;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.side-menu a {
+    display: block;
+    border-bottom: 1px solid #9addcc;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    margin: 15px 0;
+}
+
+.side-menu a:hover {
+    text-decoration: none;
+    color: #66b4a1;
+}
+
+.side-bar {
+    padding-left: 0;
+}
+
+.top-picture img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.news {
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+.date {
+    width: 23%;
+}
+
+.news td {
+    padding: 10px;
+    border-bottom: 1px dotted #9addcc;
+    margin-bottom: 20px;
+}
+
+.news h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 20px;
+    border-bottom: 3px solid #9addcc;
+}
+
+.foot-nav {
+    background-color: #9addcc;
+    margin-top: 40px;
+    border-radius: 10px;
+    height: 35px;
+}
+
+.foot-nav a {
+    color: rgb(54, 54, 54);
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.foot-logo {
+    float: right;
+}
+
+.foot-name {
+    font-size: 2em;
+    font-family: 'Sacramento', cursive;
+    margin-bottom: 0;
+}
+
+.foot-adress {
+    font-size: .8em;
+    margin-top: 0;
+}
+
+.clinic-main-h {
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: #9addcc;
+    border-radius: 5px 5px 0 0;
+}
+
+.clinic-propaty {
+    background-color: #fff;
+}
+
+.clinic-anouns {
+    padding: 0 30px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.clinic-anouns h3 {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 1px solid #9addcc;
+}
+
+.clinic-day td {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.clinic-day-table {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.time {
+    width: 10%;
+}
+
+.time p {
+    font-size: .8em;
+    margin: 0;
+}
+
+.off {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.off-day {
+    padding-left: 15px;
+}
+
+.introduce {
+    text-align: center;
+    background-color: #9addcc;
+    border-radius: 5px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.staff-profile img {
+    width: 100%;
+}
+
+.access-propaty p {
+    font-size: .8em;
+    margin: 0 0;
+}
